@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Game of Go: Culture & History | Japan</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.256.png" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Title", "Money"],
+          ["Kisei", 45000000],
+          ["Judan", 7000000],
+          ["Honinbo", 28000000],
+          ["Gosei", 8000000],
+          ["Meijin", 30000000],
+          ["Oza", 14000000],
+          ["Tengen", 13000000],
+        ]);
+
+        var options = {
+          title: "Prize Money for the 7 Title Matches",
+        };
+
+        var chart = new google.visualization.PieChart(
+          document.getElementById("piechart")
+        );
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <h1>The Game of Go: Culture & History</h1>
+        <h3>
+          Go is a type of strategic board game played with a gridded board and
+          black and white stones. It originated in China and was known by
+          various names such as "yi," "qi," and "shuotan" in ancient China,
+          constituting one of the Four Arts alongside music, chess, and
+          calligraphy.
+        </h3>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home page</a></li>
+          <li><a href="./korea.html">Korea Baduk Association</a></li>
+          <li><a class="active" href="#">Japan Go Association</a></li>
+          <li><a href="./china.html">Chinese Chess Academy</a></li>
+          <li><a href="./taiwan.html">Haifong Go Academy in Taiwan</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="japan">
+          <div class="image">
+            <img
+              src="./images/Nihon_Ki-in_Headquarter_(2016-05-05)_5.jpg"
+              alt="Japan"
+            />
+          </div>
+          <div class="info">
+            <p>
+              The Nihon Ki-in (Japanese: 一般公益法人日本棋院, Ippankōekihōjin
+              Nihon kiin) is the largest Go organization in Japan, responsible
+              for managing various Go tournaments. Its headquarters is located
+              in Chiyoda Ward, Tokyo, with additional branch offices in Nagoya
+              and Osaka, serving as central and Kansai headquarters
+              respectively. Currently, the Nihon Ki-in oversees approximately
+              300 Go players.
+            </p>
+            <p>
+              The Nihon Ki-in was established in 1924 through the merger of the
+              two largest Go organizations at the time, Honinbo Mon and
+              Hogensha, with the support of Okura Kishichiro. After its
+              establishment, the Nihon Ki-in faced competition from other
+              organizations and individuals such as Shigematsu Shigeo, Wu
+              Qingyuan (Go Seigen), and Weiqi Shinsha. In 1950, a group of Go
+              players led by Hashimoto Utaro broke away from the Nihon Ki-in and
+              founded the Kansai Ki-in, establishing their own organization in
+              the Kansai region.
+            </p>
+            <p>The affiliated organizations include:</p>
+            <ul>
+              <li>Tokyo Main Office</li>
+              <li>Kansai Headquarters</li>
+              <li>Central Headquarters</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="competition">
+          <div class="text">
+            <h3>The Nihon Ki-in Title Matches</h3>
+            <p>
+              The seven major Go tournaments in Japan, ranked by prize money,
+              are Kisei, Meijin, Honinbo, Oza, Tengen, Gosei, and Judan. Among
+              these, the top three tournaments in terms of prize money, Kisei,
+              Meijin, and Honinbo, are collectively known as the "Three Major
+              Title Matches." Among them, the Kisei is the highest title. If a
+              player concurrently holds all three titles, they are referred to
+              as achieving the "Big Triple Crown."
+            </p>
+            <p>
+              The most significant feature of the seven major Go tournaments is
+              that all Go players have the opportunity to participate. However,
+              the methods for determining challengers vary. In the Meijin and
+              Honinbo tournaments, players enter a preliminary round before
+              advancing to the league stage. Entering the league stage is a
+              testament to a player's status as a top-tier Go player.
+            </p>
+            <p>The prize money for the title matches is as follows:</p>
+            <ul>
+              <li>Kisei: 45,000,000 Japanese Yen</li>
+              <li>Judan: 7,000,000 Japanese Yen</li>
+              <li>Honinbo: 28,000,000 Japanese Yen</li>
+              <li>Gosei: 8,000,000 Japanese Yen</li>
+              <li>Meijin: 30,000,000 Japanese Yen</li>
+              <li>Oza: 14,000,000 Japanese Yen</li>
+              <li>Tengen: 13,000,000 Japanese Yen</li>
+            </ul>
+          </div>
+          <div id="piechart"></div>
+        </div>
+      </section>
+    </main>
+    <script
+      color=" 0, 0, 0"
+      opacity="0.3"
+      zIndex="-2"
+      count="99"
+      src="https://cdnjs.cloudflare.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js"
+      integrity="sha512-P+NGabN/TJDOnCVOFJO+E06TBm4i+M8dTT91lWg/8UpwLrzicEXIypmABPpA47D0x6r+yxFHjYIZKWhc1h7xlQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
