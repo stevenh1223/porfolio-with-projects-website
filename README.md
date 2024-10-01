@@ -17,15 +17,6 @@ The following **technical skills** are applied:
 
 To use this project, follow these steps:
 
-**Prerequisites**
-
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (version 14 or later)
-- [npm](https://www.npmjs.com/) (Node package manager, typically installed with Node.js)
-
-**Installation**
-
 1. Clone the repository
 
 ```bash
@@ -38,18 +29,10 @@ git clone https://github.com/stevenh1223/porfolio-with-projects-website.git
 cd porfolio-with-projects-website
 ```
 
-3. Install the necessary dependencies:
+3. Open the website:
 
 ```bash
-npm install
-```
-
-**Running the Application**
-
-To start the application, use the following command:
-
-```bash
-npm start
+open ./index.html
 ```
 
 ## License
